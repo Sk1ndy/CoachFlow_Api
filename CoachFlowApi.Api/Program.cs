@@ -1,7 +1,13 @@
 using CoachFlowApi.Application.Interfaces;
 using CoachFlowApi.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<CoachFlowDbContext>(options =>
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 builder.Services.AddControllers(); 
 builder.Services.AddEndpointsApiExplorer();

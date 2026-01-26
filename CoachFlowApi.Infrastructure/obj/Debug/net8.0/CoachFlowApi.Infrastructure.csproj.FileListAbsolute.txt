@@ -15,3 +15,4 @@
 /home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/obj/Debug/net8.0/refint/CoachFlowApi.Infrastructure.dll
 /home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/obj/Debug/net8.0/CoachFlowApi.Infrastructure.pdb
 /home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/obj/Debug/net8.0/ref/CoachFlowApi.Infrastructure.dll
+/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/obj/Debug/net8.0/CoachFlowApi.Infrastructure.sourcelink.json

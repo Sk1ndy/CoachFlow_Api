@@ -7,6 +7,6 @@ CoachFlow est une application web de coaching sportif permettant :
 
 Le projet met l’accent sur une logique métier robuste, la sécurité applicative et la gestion de concurrence.
 
-# auteur 
+# Auteur 
 Yany Boudedja 
 
