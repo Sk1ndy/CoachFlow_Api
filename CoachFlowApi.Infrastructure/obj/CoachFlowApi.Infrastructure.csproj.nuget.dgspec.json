@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/CoachFlowApi.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Application/CoachFlowApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Application/CoachFlowApi.Application.csproj",
+        "projectName": "CoachFlowApi.Application",
+        "projectPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Application/CoachFlowApi.Application.csproj",
+        "packagesPath": "/home/sk-y/.nuget/packages/",
+        "outputPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sk-y/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Domain/CoachFlowApi.Domain.csproj": {
+                "projectPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Domain/CoachFlowApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Domain/CoachFlowApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Domain/CoachFlowApi.Domain.csproj",
+        "projectName": "CoachFlowApi.Domain",
+        "projectPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Domain/CoachFlowApi.Domain.csproj",
+        "packagesPath": "/home/sk-y/.nuget/packages/",
+        "outputPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sk-y/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/CoachFlowApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/CoachFlowApi.Infrastructure.csproj",
+        "projectName": "CoachFlowApi.Infrastructure",
+        "projectPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/CoachFlowApi.Infrastructure.csproj",
+        "packagesPath": "/home/sk-y/.nuget/packages/",
+        "outputPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sk-y/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Application/CoachFlowApi.Application.csproj": {
+                "projectPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Application/CoachFlowApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

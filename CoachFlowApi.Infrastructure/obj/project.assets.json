@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CoachFlowApi.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CoachFlowApi.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CoachFlowApi.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoachFlowApi.Application.dll": {}
+        }
+      },
+      "CoachFlowApi.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CoachFlowApi.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoachFlowApi.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoachFlowApi.Application/1.0.0": {
+      "type": "project",
+      "path": "../CoachFlowApi.Application/CoachFlowApi.Application.csproj",
+      "msbuildProject": "../CoachFlowApi.Application/CoachFlowApi.Application.csproj"
+    },
+    "CoachFlowApi.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CoachFlowApi.Domain/CoachFlowApi.Domain.csproj",
+      "msbuildProject": "../CoachFlowApi.Domain/CoachFlowApi.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CoachFlowApi.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/sk-y/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/CoachFlowApi.Infrastructure.csproj",
+      "projectName": "CoachFlowApi.Infrastructure",
+      "projectPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/CoachFlowApi.Infrastructure.csproj",
+      "packagesPath": "/home/sk-y/.nuget/packages/",
+      "outputPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Infrastructure/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/sk-y/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Application/CoachFlowApi.Application.csproj": {
+              "projectPath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Application/CoachFlowApi.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.417/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

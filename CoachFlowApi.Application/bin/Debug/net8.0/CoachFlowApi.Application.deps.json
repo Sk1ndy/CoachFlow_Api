@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CoachFlowApi.Application/1.0.0": {
+        "dependencies": {
+          "CoachFlowApi.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CoachFlowApi.Application.dll": {}
+        }
+      },
+      "CoachFlowApi.Domain/1.0.0": {
+        "runtime": {
+          "CoachFlowApi.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoachFlowApi.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoachFlowApi.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
