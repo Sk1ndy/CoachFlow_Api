@@ -74,8 +74,13 @@ dotnet build
 
 ```json
 {
+  "Jwt": {
+  "Issuer": "CoachFlowApi",
+  "Audience": "CoachFlowClient",
+  "Secret": "2bb6bf89d550eece354a8815ed1500a1889377b7" 
+},
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Port=3306;Database=CoachFlowDb;User=coachflow;Password=1;"
+    "DefaultConnection": "Server=localhost;Port=3306;Database=CoachFlowDb;User=root;Password=1;"
   },
   "Logging": {
     "LogLevel": {

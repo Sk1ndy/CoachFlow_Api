@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BM2BlM716mc=",
+  "dgSpecHash": "sSl3OVJZ7R8=",
   "success": true,
   "projectFilePath": "/home/sk-y/Dropbox/Note_Code/Web/MyApi/CoachFlowApi/CoachFlowApi.Application/CoachFlowApi.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/sk-y/.nuget/packages/fluentvalidation/12.1.1/fluentvalidation.12.1.1.nupkg.sha512",
+    "/home/sk-y/.nuget/packages/fluentvalidation.dependencyinjectionextensions/12.1.1/fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "/home/sk-y/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.2/microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

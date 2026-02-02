@@ -165,6 +165,10 @@ namespace CoachFlowApi.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("Prenom")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Role")
                         .IsRequired()
                         .HasColumnType("longtext");
