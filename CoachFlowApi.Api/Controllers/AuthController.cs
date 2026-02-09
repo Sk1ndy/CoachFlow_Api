@@ -60,16 +60,26 @@ public class AuthController(LoginUseCase loginUseCase, RegisterUseCase registerU
 
 
 [HttpGet("me")]
-public async Task<IActionResult> Me()
-{
-    var sub = User.FindFirst("sub")?.Value;
-    if (string.IsNullOrWhiteSpace(sub))
-        return Unauthorized("Token invalide ou manquant");
+    [Authorize]
+    public async Task<IActionResult> Me()
+    {
+        var idClaim = User.FindFirst("sub") ?? User.FindFirst(ClaimTypes.NameIdentifier);
 
-    var userId = int.Parse(sub);
-    var result = await getUserInfoUseCase.Execute(userId);
-    return Ok(result);
-}
+        if (idClaim == null || string.IsNullOrWhiteSpace(idClaim.Value))
+            return Unauthorized(new { error = "Token valide, mais l'ID utilisateur est introuvable dans les claims." });
 
+        if (!int.TryParse(idClaim.Value, out int userId))
+            return Unauthorized(new { error = "Format de l'ID utilisateur invalide dans le token." });
+
+        try
+        {
+            var result = await getUserInfoUseCase.Execute(userId);
+            return Ok(result);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { error = ex.Message });
+        }
+    }
 
 }
