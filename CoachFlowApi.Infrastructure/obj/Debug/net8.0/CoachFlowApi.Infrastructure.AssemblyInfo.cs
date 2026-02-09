@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoachFlowApi.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2fdf1ee59a44226453ee4930546b126f5088f49")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e05bc8ac1c18d4ef00ea44ce041032e076a9af6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoachFlowApi.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoachFlowApi.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
