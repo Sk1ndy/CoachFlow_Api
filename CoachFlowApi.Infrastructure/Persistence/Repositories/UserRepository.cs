@@ -9,6 +9,9 @@ public class UserRepository(CoachFlowDbContext context) : IUserRepository
     public async Task<User?> GetByEmailAsync(string email) 
         => await context.Users.FirstOrDefaultAsync(u => u.Courriel == email);
 
+    public async Task<User?> GetByIdAsync(int id)
+        => await context.Users.FirstOrDefaultAsync(u => u.Id == id);
+
     public async Task<User> AddAsync(User user)
     {
         context.Users.Add(user);

@@ -12,7 +12,10 @@ public class JwtProvider(IConfiguration configuration) : IJwtProvider
 {
     public string Generate(User user)
     {
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Secret"]!));
+        var key = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(configuration["Jwt:Secret"]!)
+        );
+
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
         var claims = new[]
@@ -26,7 +29,7 @@ public class JwtProvider(IConfiguration configuration) : IJwtProvider
             issuer: configuration["Jwt:Issuer"],
             audience: configuration["Jwt:Audience"],
             claims: claims,
-            expires: DateTime.UtcNow.AddHours(24),
+            expires: DateTime.UtcNow.AddHours(1),
             signingCredentials: creds
         );
 
